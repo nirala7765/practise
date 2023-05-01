@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+
+
+
+    <style>
+      .login:hover{
+         background-color: rgb(217, 224, 185);
+      }
+      .signupPage:hover{
+        background-color: rgb(217, 224, 185);
+      }
+     .box{
+        position: relative;
+       max-width: 100%;
+        height: 800px;
+        background-color: rgb(0, 153, 255);
+
+     }
+     .login{
+        position: absolute;
+        width: 400px;
+        height: fit-content;
+        background-color: white;
+        margin: 100px;
+        margin-left: 250px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+     }
+     .signupPage{
+        
+        width: 400px;
+        height: fit-content;
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 300px;
+       
+        border: 2px solid black;
+        border-radius: 10px;
+      
+        float: right;
+     }
+
+     .log{
+        text-align: center;
+        color: brown;
+     }
+    
+     .input{
+        padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      border: 2px solid rgba(31, 6, 6, 0.585);
+      border-radius: 5px;
+        box-sizing: border-box;
+     }
+     .container{
+    margin: 20px;
+     }
+     #fogot{
+      text-align: center;
+      color: rgb(47, 130, 202);
+      margin-left: 100px;
+     }
+     #fogot:hover{
+      cursor: pointer;
+     }
+     .submit{
+      color: white;
+      font-weight: bold;
+      background-color: rgba(0, 0, 255, 0.768);
+      padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      border: 2px solid rgba(31, 6, 6, 0.585);
+      border-radius: 5px;
+        box-sizing: border-box;
+     }
+     .submit:hover{
+      background-color: rgba(44, 170, 109, 0.938);
+      cursor: pointer;
+     }
+     #sin{
+      margin-left: 30px;
+     }
+     #signup{
+      color: rgb(47, 130, 202);
+     }
+     #signup:hover{
+      cursor: pointer;
+     }
+     
+     
+     #or{
+      margin-left: 150px;
+      font-size: 20px;
+     }
+    .loginfb{
+      background-color: rgb(86, 98, 205);
+      font-weight: bolder;
+      color: white;
+      padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      border: 2px solid rgba(31, 6, 6, 0.585);
+      border-radius: 5px;
+        box-sizing: border-box;
+       
+
+    }
+    .loginfb:hover{
+      cursor: pointer;
+      background-color: green;
+    }
+    .logingl{
+      background-color:white;
+      font-weight: bolder;
+      color: black;
+      padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      border: 2px solid rgba(31, 6, 6, 0.585);
+      border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .logingl:hover{
+      cursor: pointer;
+      background-color: darkolivegreen;
+    }
+     
+
+
+
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+        <div class="box">
+          
+            <div class="login">
+               <form action="post" class="container">
+                <h2 class="log">Login</h2>
+               
+            
+                <input type="email" class = "input" placeholder="Email" >
+                <input type="password" class = "input" placeholder="Password" >
+                <label for="fp" id="fogot">Forgot password?</label>
+                <input type="submit" class="submit" placeholder="LOGIN" value="Login" id="sub1">
+                <label id="sin" for="">Don't have an account?</label>
+                <label id="signup" for="">Signup</label>
+                <br>
+                <label id="or" for="">or</label>
+                <div class="fblogin">
+                  
+                </div>
+                <input type="submit" class="loginfb" placeholder="LOGIN" value="Login With Facebook" id="sub1">
+                <input type="submit" class="logingl" placeholder="LOGIN" value="Login With Google" id="sub1">
+                <br>
+               <br>
+
+
+               
+               </form>
+            </div>
+
+         <div class="signupPage">
+          <form action="post" class="container">
+            <h2 class="log">Sign Up</h2>
+           
+        
+            <input type="email" class = "input" placeholder="Email" >
+            <input type="email" class = "input" placeholder="Mobile Number" >
+
+            <input type="password" class = "input" placeholder=" Create Password" >
+            <input type="password" class = "input" placeholder=" Confirm Password" >
+          
+            <input type="submit" class="submit" placeholder="SignUp" value="Signup" id="sub1">
+            <label id="sin" for="">Already have an account?</label>
+            <label id="signup" for="">Login</label>
+            <br>
+            <label id="or" for="">or</label>
+            <div class="fblogin">
+              
+            </div>
+            <input type="submit" class="loginfb" placeholder="LOGIN" value="Login With Facebook" id="sub1">
+            <input type="submit" class="logingl" placeholder="LOGIN" value="Login With Google" id="sub1">
+            <br>
+           <br>
+
+
+           
+           </form>
+
+         </div>
+
+
+
+
+
+
+
+       
+
+        </div>
+       
+   
+
+
+    
+</body>
+</html>
